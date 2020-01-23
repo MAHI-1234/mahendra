@@ -3,5 +3,5 @@
   become: yes
   tasks:
   - name: this is remove git
-   yum: name=git state=absent
+    yum: name=git state=absent
 
